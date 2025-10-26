@@ -2,6 +2,10 @@ package racingcar;
 
 public class Application {
     public static void main(String[] args) {
-        // TODO: 프로그램 구현
+        Input input = InputManager.getInput();
+
+        GameManager gm = new GameManager(input);
+
+        gm.start();
     }
 }
