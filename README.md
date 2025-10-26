@@ -1,8 +1,8 @@
 # java-racingcar-precourse
 
-- [ ] InputManager
-  - [ ] 사용자 입력 받아오기
-  - [ ] 입력 값 검증
+- [x] InputManager
+  - [x] 사용자 입력 받아오기
+  - [x] 입력 값 검증
 
 - [ ] GameManager
   - [ ] InputManager 입력을 바탕으로 게임 생성
