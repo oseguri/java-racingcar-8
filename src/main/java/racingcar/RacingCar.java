@@ -19,8 +19,10 @@ public class RacingCar {
     }
 
     public void run() {
-        int value = Randoms.pickNumberInRange(0,9);
-        if(value >= 4) this.distance++;
+        run(Randoms.pickNumberInRange(0,9));
     }
 
+    public void run(int value) {
+        if(value >= 4) this.distance++;
+    }
 }
